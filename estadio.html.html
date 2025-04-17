@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo Intro</title>
+    <link rel="styleshet" href="css/style.css"
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #696464;
+            border-radius: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #ffffff;
+            float: left;
+            width: 20%;
+        }
+        nav ul li{
+            list-style-type: none;
+            width: 90%;
+        }
+        nav ul li a{
+            text-decoration: none; /* tira a linha do link */
+            color: #141414;
+            font-size: 26px;
+            line-height: 50px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #141414;
+        }
+        nav ul li a:hover{ /*:hover = qdo passar o mouse sobre o link */
+            color: #f12828
+        }
+        
+
+        main {
+            background-color: #ffffff;
+            float: left;
+            width: 60%;
+        }
+
+        aside {
+            background-color: #474747;
+            float: left;
+            width: 20%;
+            border-radius: 20px;
+            padding: 20px;
+            margin-top: 15px;
+            box-shadow: 5px 5px 8px #141414;
+            /* 1o valor é pros lados, 2o valor pra cima ou pra baixo, 3o é desfoque */
+        }
+        aside p {
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 26px;
+        }
+
+        footer {
+            background-color: #474747;
+            float: left;
+            width: 100%;
+        }
+        footer p{
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            line-height: 50px;
+        }
+        footer p a{
+            text-decoration: none;
+            color: #141414;
+            font-size: 26px;
+        }
+        footer p a:hover{
+            color:#141414;
+            text-decoration: underline;
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <header>
+            <span class="sccp"><h1>Corinthians, Mais que um clube.</h1></span>
+            <!-- para mudar as cores do texto ou marcar, é preciso usar os comandosm "<span>" "<mark>" <span class="azul" (ou a cor que preferir)" "-->
+            
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#" target="_self">A História do Clube</a>
+                <li><a href="#" target="_self">Jogadores</a>
+                <li><a href="#" target="_self">Títulos</a>
+
+            </ul>
+        </nav>
+        <main>
+            <h1>Estádio</h1>
+            <p>A Neo Química Arena, localizada em Itaquera, na zona leste de São Paulo, é um dos estádios mais modernos do Brasil e símbolo da paixão corinthiana. Inaugurada em 2014, foi construída especialmente para a Copa do Mundo daquele ano, sediando a abertura entre Brasil e Croácia e outras partidas do torneio, ganhando projeção internacional logo de início.
+
+                Com capacidade para cerca de 49 mil torcedores, a arena foi projetada para oferecer conforto, tecnologia e visibilidade em todos os setores. Seu design moderno, assinado por Aníbal Coutinho, conta com gramado híbrido, iluminação em LED, fachada digital e infraestrutura de ponta, como camarotes, vestiários padrão FIFA e acessibilidade total.
+                
+                Muito mais do que uma arena esportiva, ela representa um sonho realizado pelo Sport Club Corinthians Paulista, que há décadas buscava ter um estádio próprio. A parceria com a farmacêutica Hypera Pharma, firmada em 2020, deu ao estádio o nome atual – Neo Química Arena – em um contrato de naming rights válido por 20 anos.
+                
+                Desde sua inauguração, o estádio tem sido palco de grandes conquistas do clube, como o título brasileiro de 2015, além de jogos emocionantes na Libertadores, Copa do Brasil e Campeonato Paulista. Em dias de jogo, a Fiel transforma o local em um verdadeiro caldeirão, com destaque para o setor norte, onde as torcidas organizadas fazem a festa.
+                
+                A Neo Química Arena também teve impacto direto na transformação urbana da zona leste, contribuindo para melhorias no transporte público, valorização imobiliária e criação de empregos. Fora do futebol, o estádio recebe shows, eventos, projetos sociais e visitas guiadas, abrindo espaço para toda a comunidade.
+                
+                Mais que um estádio, a Neo Química Arena é a casa do Corinthians, um símbolo de orgulho para a torcida e um marco da arquitetura esportiva brasileira.
+            </p>
+            <img src="https://static.corinthians.com.br/uploads/168994514836d5ef2a011f0b3e0e0fa139228bbe18.jpg" alt="Imagem" width="100%">
+        </main> <!--fecha main-->
+        <aside>
+            <h2>Data de construção</h2>
+            <p>12 de junho de 2014</p>
+            <h2>Capacidade</h2>
+            <p>48.905 lugares</p>
+        </aside><!-- fecha aside -->
+        <footer>
+            <p>Copyright 2025 &copy; | Desenvolvido por jotave
+                <a href="#" target="_blank" </p>
+        </footer>
+    </body>
+
+</html>
